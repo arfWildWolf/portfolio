@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arief Arya Menon | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-cyan-500 selection:text-black">
+
+  <main class="max-w-4xl mx-auto px-6 py-16 space-y-20">
+
+    <!-- HERO HEADER -->
+    <header class="border-b border-gray-800 pb-10">
+      <h1 class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight">Arief Arya Menon</h1>
+      <p class="text-xl text-cyan-400 font-mono mt-2">Intelligent Systems & Bioinformatics Researcher</p>
+      <p class="text-gray-400 mt-4 leading-relaxed max-w-2xl">
+        5th-Semester Computer Science Student at BINUS University focused on biological sequence tokenization, probabilistic models, and low-latency local AI systems.
+      </p>
+      <div class="flex gap-4 mt-6 text-sm font-mono">
+        <a href="#projects" class="bg-cyan-500 hover:bg-cyan-400 text-black px-4 py-2 font-semibold rounded transition">View Projects &rarr;</a>
+        <a href="#skills-publications" class="border border-gray-700 hover:border-gray-500 px-4 py-2 rounded transition">Publications & Skills</a>
+      </div>
+    </header>
+
+    <!-- SECTION 1: POSITIONS -->
+    <section id="positions" class="space-y-6">
+      <div class="flex items-center gap-3">
+        <span class="text-cyan-400 font-mono text-sm">01.</span>
+        <h2 class="text-2xl font-bold text-white tracking-wide">Positions & Roles</h2>
+      </div>
+
+      <div class="grid gap-4 sm:grid-cols-2">
+        <div class="bg-gray-900/60 border border-gray-800 p-5 rounded-lg">
+          <span class="text-xs font-mono text-cyan-400 uppercase tracking-widest">Leadership</span>
+          <h3 class="text-lg font-semibold text-white mt-1">President</h3>
+          <p class="text-sm text-gray-400">Aikido BINUS Student Organization (Kemanggisan Campus)</p>
+          <p class="text-xs text-gray-500 mt-3">Executive leadership, organizational administration, and event logistics management.</p>
+        </div>
+
+        <div class="bg-gray-900/60 border border-gray-800 p-5 rounded-lg">
+          <span class="text-xs font-mono text-cyan-400 uppercase tracking-widest">Academics</span>
+          <h3 class="text-lg font-semibold text-white mt-1">Computer Science Student</h3>
+          <p class="text-sm text-gray-400">BINUS University (5th Semester)</p>
+          <p class="text-xs text-gray-500 mt-3">Specialization in Intelligent Systems, machine learning architectures, and bioinformatics engineering.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: PROJECTS & DEPLOYMENTS -->
+    <section id="projects" class="space-y-6">
+      <div class="flex items-center gap-3">
+        <span class="text-cyan-400 font-mono text-sm">02.</span>
+        <h2 class="text-2xl font-bold text-white tracking-wide">Projects & Deployments</h2>
+      </div>
+
+      <div class="space-y-6">
+        <!-- Project 1 -->
+        <div class="bg-gray-900/40 border border-gray-800 p-6 rounded-lg space-y-3">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <h3 class="text-xl font-bold text-white">LMS Client-Side Face Authentication</h3>
+            <div class="flex items-center gap-3 text-sm font-mono">
+              <span class="text-gray-400">Role: PM</span>
+              <a href="https://github.com/yourusername/lms-face-auth" target="_blank" rel="noopener" class="text-cyan-400 hover:underline">Deploy / Repo &rarr;</a>
+            </div>
+          </div>
+          <p class="text-sm text-gray-300 leading-relaxed">
+            Replaced spoofable Wi-Fi attendance tracking with client-side, on-device face authentication inside a custom Learning Management System. Managed sprint planning, cross-functional delivery, and scope execution.
+          </p>
+          <div class="flex flex-wrap gap-2 pt-2 text-xs font-mono text-gray-400">
+            <span class="bg-gray-800 px-2.5 py-1 rounded">Face Recognition</span>
+            <span class="bg-gray-800 px-2.5 py-1 rounded">Client-Side Auth</span>
+            <span class="bg-gray-800 px-2.5 py-1 rounded">Project Management</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="bg-gray-900/40 border border-gray-800 p-6 rounded-lg space-y-3">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <h3 class="text-xl font-bold text-white">Local AI Infrastructure & Model Operations</h3>
+            <div class="flex items-center gap-3 text-sm font-mono">
+              <span class="text-gray-400">Role: Systems Lead</span>
+              <a href="https://github.com/yourusername/local-ai-ops" target="_blank" rel="noopener" class="text-cyan-400 hover:underline">Deploy / Repo &rarr;</a>
+            </div>
+          </div>
+          <p class="text-sm text-gray-300 leading-relaxed">
+            Engineered and self-hosted inference pipelines for open-weights models (Ollama, Qwen, DeepSeek). Configured memory optimization, quantization strategies, and low-latency local execution without cloud API dependencies.
+          </p>
+          <div class="flex flex-wrap gap-2 pt-2 text-xs font-mono text-gray-400">
+            <span class="bg-gray-800 px-2.5 py-1 rounded">Ollama</span>
+            <span class="bg-gray-800 px-2.5 py-1 rounded">Qwen</span>
+            <span class="bg-gray-800 px-2.5 py-1 rounded">DeepSeek</span>
+            <span class="bg-gray-800 px-2.5 py-1 rounded">Quantization</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="bg-gray-900/40 border border-gray-800 p-6 rounded-lg space-y-3">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <h3 class="text-xl font-bold text-white">Hybrid TIS Prediction Playground</h3>
+            <div class="flex items-center gap-3 text-sm font-mono">
+              <span class="text-gray-400">Role: Lead Researcher</span>
+              <a href="https://github.com/yourusername/tis-hybrid-model" target="_blank" rel="noopener" class="text-cyan-400 hover:underline">Deploy / Repo &rarr;</a>
+            </div>
+          </div>
+          <p class="text-sm text-gray-300 leading-relaxed">
+            Interactive web demo for evaluating codon-tokenized biological sequence inputs against hybrid HMM/PWM models and transformer baselines.
+          </p>
+          <div class="flex flex-wrap gap-2 pt-2 text-xs font-mono text-gray-400">
+            <span class="bg-gray-800 px-2.5 py-1 rounded">Python</span>
+            <span class="bg-gray-800 px-2.5 py-1 rounded">HMM / PWM</span>
+            <span class="bg-gray-800 px-2.5 py-1 rounded">DNABERT-2</span>
+            <span class="bg-gray-800 px-2.5 py-1 rounded">Bioinformatics</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: SKILLS & EVERYTHING ELSE -->
+    <section id="skills-publications" class="space-y-8">
+      <div class="flex items-center gap-3">
+        <span class="text-cyan-400 font-mono text-sm">03.</span>
+        <h2 class="text-2xl font-bold text-white tracking-wide">Skills & Research Publications</h2>
+      </div>
+
+      <!-- Publications -->
+      <div class="space-y-4">
+        <h3 class="text-lg font-semibold text-white">Research Papers</h3>
+        
+        <div class="border-l-2 border-cyan-500 pl-4 space-y-1">
+          <span class="text-xs font-mono text-cyan-400">[Accepted Paper] ICORIS 2026 / IEEE Xplore</span>
+          <h4 class="text-base font-bold text-white">A Comparative Evaluation of Naive and Codon Tokenization in Translation Initiation Site Prediction</h4>
+          <p class="text-sm text-gray-400">Lead Author. Demonstrated that codon-level sequence tokenization retains biological context and improves eukaryotic TIS prediction accuracy without expanding parameter counts.</p>
+        </div>
+
+        <div class="border-l-2 border-gray-700 pl-4 space-y-1">
+          <span class="text-xs font-mono text-gray-400">[Ongoing Research] Target: IEEE</span>
+          <h4 class="text-base font-bold text-white">Hybrid Probabilistic & Transformer Architectures for High-Resolution TIS Prediction</h4>
+          <p class="text-sm text-gray-400">Lead Researcher. Architectural extension combining Hidden Markov Models (HMM) and Position Weight Matrices (PWM), benchmarked against transformer baselines (DNABERT-2).</p>
+        </div>
+      </div>
+
+      <!-- Skill Matrix Table -->
+      <div class="space-y-4">
+        <h3 class="text-lg font-semibold text-white">Technical Skill Matrix</h3>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-sm border-collapse border border-gray-800">
+            <thead>
+              <tr class="bg-gray-900 text-gray-300 font-mono border-b border-gray-800">
+                <th class="p-3 border-r border-gray-800">Domain</th>
+                <th class="p-3 border-r border-gray-800">Core Methodology</th>
+                <th class="p-3">Tooling & Stack</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-800 text-gray-400">
+              <tr>
+                <td class="p-3 font-semibold text-white border-r border-gray-800">Bioinformatics & AI</td>
+                <td class="p-3 border-r border-gray-800">Codon tokenization, HMM/PWM models, Transformer benchmarking</td>
+                <td class="p-3 font-mono text-xs">Python, PyTorch, BioPython, DNABERT-2</td>
+              </tr>
+              <tr>
+                <td class="p-3 font-semibold text-white border-r border-gray-800">Software Engineering</td>
+                <td class="p-3 border-r border-gray-800">Sprint planning, scope control, client-side face authentication</td>
+                <td class="p-3 font-mono text-xs">Git, GitHub Actions, Jira, System Architecture Specs</td>
+              </tr>
+              <tr>
+                <td class="p-3 font-semibold text-white border-r border-gray-800">Systems & Infrastructure</td>
+                <td class="p-3 border-r border-gray-800">Quantization, local inference tuning, hardware optimization</td>
+                <td class="p-3 font-mono text-xs">Ollama, Qwen, DeepSeek, Linux CLI, Vercel</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-gray-800 pt-8 text-center text-xs text-gray-500 font-mono">
+      <p>© 2026 Arief Arya Menon. Built for static deployment on Vercel.</p>
+    </footer>
+
+  </main>
+
+</body>
+</html>
